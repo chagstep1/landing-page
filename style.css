@@ -1,0 +1,158 @@
+.header-container,
+.footer {
+	background-color: #1F2937;
+}
+
+.header-container {
+	padding: 24px 256px 54px 256px;
+}
+
+.top-header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.header-logo {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+.header-links {
+	display: flex;
+	gap: 16px;
+}
+.header-secondary-text,
+.header-links a {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.header-links a {
+	text-decoration: none;
+}
+
+button {
+	background-color: #3882F6;
+	color: white;
+	border: 0;
+	border-radius: 8px;
+	padding: 8px 32px;
+}
+
+.mid-header-title {
+	font-size: 48px;
+	font-weight: bold;
+	color: #F9FAF8;
+}
+
+.mid-header-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.mid-header-left,
+.mid-header-right {
+	width: 400px;
+}
+
+.mid-header-left {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.mid-header-right {
+	background-color: grey;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-container {
+	padding-top: 48px;
+	padding-bottom: 100px;
+}
+
+.info-container-title {
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 135px;
+	text-align: center;
+}
+
+.card-frame {
+	box-sizing: border-box;
+	height: 135px;
+	border: 3px solid #3882F6;
+	border-radius: 12px;
+}
+
+.quote {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #E5E7EB;
+	height: 300px;
+}
+
+.quote-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+}
+
+.quote-author {
+	align-self: flex-end;
+	font-weight: bold;
+}
+
+.quote-text {
+	color: #1F2937;
+	font-size: 36px;
+}
+
+.call {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-box {
+	background-color: #3882F6;
+	border-radius: 12px;
+	padding: 32px 64px;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	color: white;
+}
+
+.call-box button {
+	border: 2px solid white;
+}
+
+.footer {
+	text-align: center;
+	padding: 16px;
+	color: white;
+}
